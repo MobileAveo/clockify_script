@@ -10,7 +10,7 @@ export default function MonthlyReport() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('/api/generate-upload-report');
+      const response = await fetch('/api/generate-report');
       const data = await response.json();
 
       if (!response.ok) {
