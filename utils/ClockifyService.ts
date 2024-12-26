@@ -114,7 +114,7 @@ export class ClockifyService {
           const hours = duration / (1000 * 60 * 60);
           totalHours += hours;
 
-          const taskName = entry.description?.replace(/,/g, '') ?? 'Unnamed Task';
+          const taskName = entry.description?.replace(/,/g, '').replace(/\n/g, '|') ?? 'Unnamed Task';
           taskSummary[taskName] = (taskSummary[taskName] || 0) + hours;
         });
 
@@ -185,7 +185,7 @@ export class ClockifyService {
           const hours = duration / (1000 * 60 * 60);
           totalHours += hours;
 
-          const taskName = entry.description?.replace(/,/g, '') ?? 'Unnamed Task';
+          const taskName = entry.description?.replace(/,/g, '').replace(/\n/g, '|') ?? 'Unnamed Task';
           taskSummary[taskName] = (taskSummary[taskName] || 0) + hours;
         });
 
