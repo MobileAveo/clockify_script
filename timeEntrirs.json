@@ -1,0 +1,21 @@
+{
+  "id": "6734a35e37f772320a766f3c",
+  "description": "* create method on native iOS to manage recent receipt. * added api to verity recent receipt token * mange upadate data on firebase on user model * refactor code",
+  "tagIds": null,
+  "userId": "6490445463bf4673360ff331", 
+  "billable": false,
+  "taskId": "6736ef7bb72dc2580edb1df1",
+  "projectId": "64ae4597c5d03b0bfedb5849",
+  "workspaceId": "5e2b74c82e357e6b0177d032",
+  "timeInterval": {
+    "start": "2024-11-13T13:02:22Z",
+    "end": "2024-11-13T14:07:58Z",
+    "duration": "PT1H5M36S"
+  },
+  "customFieldValues": [],
+  "type": "REGULAR",
+  "kioskId": null,
+  "hourlyRate": { "amount": 0, "currency": "USD" },
+  "costRate": { "amount": 0, "currency": "USD" },
+  "isLocked": false
+}
